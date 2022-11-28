@@ -10,7 +10,7 @@ $(document).ready(function(){
     prevArrow:$('.banner_slider_icon_btn.prev'),
     nextArrow:$('.banner_slider_icon_btn.next'),
     autoplay: true,
-    autoplaySpeed: (1500)
+    autoplaySpeed: (1500),
     })
 // preloder activation
     $(window).on('load', function() {
